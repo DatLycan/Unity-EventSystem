@@ -1,5 +1,5 @@
 
-<h1 align="left">Unity - Event System</h1>
+<h1 align="left">Unity C# Event System</h1>
 
 <div align="left">
 
