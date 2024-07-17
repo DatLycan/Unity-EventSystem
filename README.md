@@ -33,28 +33,28 @@ Simply import it in Unity with the Unity Package Manager using this URL:
 
 
    ```C#
-    public struct TestEvent : IEvent {
+    public struct MyEvent : IEvent {
         public bool ShouldLog() => true;
     }
    ```
    ```C#
     public class MyClassA : MonoBehaviour {
         private void Start() {
-            EventBus<TestEvent>.Raise(new TestEvent());
+            EventBus<MyEvent>.Raise(new MyEvent());
         }
     }
    ```
    ```C#
     public class MyClassB : MonoBehaviour {
-        private EventBinding<TestEvent> testEventBinding;
+        private EventBinding<MyEvent> testEventBinding;
     
         private void OnEnable() {
-            testEventBinding = new EventBinding<TestEvent>(OnTestEvent);
-            EventBus<TestEvent>.Register(testEventBinding);
+            testEventBinding = new EventBinding<MyEvent>(OnTestEvent);
+            EventBus<MyEvent>.Register(testEventBinding);
         }
     
         private void OnDisable() {
-            EventBus<TestEvent>.Unregister(testEventBinding);
+            EventBus<MyEvent>.Unregister(testEventBinding);
         }
     
         private void OnTestEvent() {
