@@ -1,0 +1,14 @@
+{
+    "name": "com.datlycan.eventsystem",
+    "rootNamespace": "DatLycan.Packages.EventSystem",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
