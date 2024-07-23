@@ -1,9 +1,12 @@
 {
   "name": "com.datlycan.eventsystem",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Event System",
   "description": "Custom Event System for Unity that allows communication between different scripts without direct references.",
   "unity": "2022.3",
+  "gitDependencies": {
+    "com.datlycan.utils": "https://github.com/DatLycan/Unity-Utils.git"
+  },
   "author": {
     "name": "DatLycan",
     "url": "https://github.com/DatLycan"

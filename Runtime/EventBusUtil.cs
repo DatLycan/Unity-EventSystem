@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
+using PredefinedAssemblyUtils = DatLycan.Packages.Utils.PredefinedAssemblyUtils;
 
 namespace DatLycan.Packages.EventSystem {
     public static class EventBusUtil {
@@ -26,7 +27,7 @@ namespace DatLycan.Packages.EventSystem {
         
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void Initialize() {
-            EventTypes = PredefinedAssemblyUtil.GetTypes(typeof(IEvent));
+            EventTypes = PredefinedAssemblyUtils.GetTypes(typeof(IEvent));
             EventBusTypes = InitializeAllBuses();
         }
 

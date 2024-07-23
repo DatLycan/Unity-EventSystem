@@ -1,7 +1,9 @@
 {
     "name": "com.datlycan.eventsystem",
     "rootNamespace": "DatLycan.Packages.EventSystem",
-    "references": [],
+    "references": [
+        "GUID:a48034716e6b0e848aa2a51cda352a23"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
