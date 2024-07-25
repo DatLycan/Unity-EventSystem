@@ -25,9 +25,9 @@
 
 ### Installing
 
-Simply import it in Unity with the Unity Package Manager using this URL:
-
-``https://github.com/DatLycan/Unity-EventSystem.git``
+1. Install the [Git Dependency Resolver](https://github.com/mob-sakai/GitDependencyResolverForUnity).
+2. Import it in Unity with the Unity Package Manager using this URL:<br>
+   ``https://github.com/DatLycan/Unity-EventSystem.git``
 
 ## 🎈 Usage <a name="usage"></a>
 
